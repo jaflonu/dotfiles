@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/jafn/Pictures/Wallpapers/wp_1.jpg' '/home/jafn/Pictures/Wallpapers/wp_2.jpeg' '/home/jafn/Pictures/Wallpapers/wp_4.jpg' '/home/jafn/Pictures/Wallpapers/wp_3.png' '/home/jafn/Pictures/Wallpapers/wp_5.jpg' 
