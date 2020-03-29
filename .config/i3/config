@@ -8,6 +8,9 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# #---Startup---# #
+exec --no-startup-id feh --bg-fill --no-fehbg ~/.local/share/wallpapers/wp_3.png
+
 # #---Definitions---# #
 set $mod Mod4
 set $term i3-sensible-terminal
@@ -58,7 +61,7 @@ bindsym $mod+Shift+Print exec --no-startup-id xfce4-screenshooter
 # Hibernate
 bindsym $mod+Shift+F1 exec --no-startup-id ~/.local/share/utils/prompt "Hibernate computer?" "$hibernate"
 # Reboot
-bindsym $mod+Shift+BackSpace exec --no-startup-id ~/.local/share/utils/prompt "Reboot computer?" "$reboot"
+bindsym $mod+Shift+backspace exec --no-startup-id ~/.local/share/utils/prompt "Reboot computer?" "$reboot"
 # Shut down
 bindsym $mod+Shift+Escape exec --no-startup-id ~/.local/share/utils/prompt "Shut down computer?" "$shutdown"
 
@@ -105,7 +108,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # #---Floating focus---# #
-#floating_modifier $mod+BackSpace
+#floating_modifier $mod+backspace
 # Toggle floating
 bindsym $mod+Shift+space floating toggle
 # Toggle tiling
