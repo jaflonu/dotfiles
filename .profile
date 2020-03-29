@@ -25,3 +25,8 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# default programs
+export EDITOR="vim"
+export BROWSER="firefox"
+export STATUSBAR="i3blocks"
