@@ -1,0 +1,6 @@
+UpgradeType=dist-upgrade
+UpgradeAssumeYes=true
+UpgradeAutoClose=false
+LeftClick=ViewAndUpgrade
+CheckForAutoRemovables=false
+IconLook=wireframe

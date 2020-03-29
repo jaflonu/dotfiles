@@ -1,0 +1,185 @@
+#  _ _____
+# (_)___ /_      ___ __ ___
+# | | |_ \ \ /\ / / '_ ` _ \
+# | |___) \ V  V /| | | | | |
+# |_|____/ \_/\_/ |_| |_| |_|
+#
+# i3 config file (v4)
+#
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+
+# #---Definitions---# #
+set $mod Mod4
+set $term i3-sensible-terminal
+set $shutdown sudo -A shutdown -h now
+set $reboot sudo -A reboot
+set $hibernate sudo -A systemctl suspend
+
+# #---Appearance---# #
+# Font and border size
+font pango:monospace 8
+# Bar settings
+bar {
+        font pango:mono 10
+		status_command i3blocks -c /home/jafn/.config/i3blocks/config
+		position top
+		mode dock
+		modifier None
+		colors {
+				separator #268bd2
+				background #002b36
+				statusline #839496
+				focused_workspace #fdf6e3 #6c71c4 #fdf6e3
+				active_workspace #fdf6e3 #6c71c4 #fdf6e3
+				inactive_workspace #002b36 #586e75 #002b36
+				urgent_workspace #d33682 #d33682 #fdf6e3
+		}
+}
+client.focused #6c71c4 #6c71c4 #fdf6e3 #6c71c4
+client.focused_inactive #073642 #073642 #eee8d5 #6c71c4
+client.unfocused #073642 #073642 #93a1a1 #586e75
+client.urgent #d33682 #d33682 #fdf6e3 #dc322f
+
+# #---Global---# #
+# Dmenu
+bindsym $mod+d exec dmenu_run
+# Open terminal
+bindsym $mod+Return exec $term
+# Open file browser
+bindsym $mod+f exec --no-startup-id $term cd ~ -e ranger
+# Open web browser
+bindsym $mod+b exec --no-startup-id firefox
+# Emoji support
+bindsym $mod+grave exec --no-startup-id bash ~/.local/share/utils/emojicode
+# Show clipboard status
+bindsym $mod+Insert exec --no-startup-id bash ~/.local/share/utils/showclip
+# Screenshot
+bindsym $mod+Shift+Print exec --no-startup-id xfce4-screenshooter
+# Hibernate
+bindsym $mod+Shift+F1 exec --no-startup-id ~/.local/share/utils/prompt "Hibernate computer?" "$hibernate"
+# Reboot
+bindsym $mod+Shift+BackSpace exec --no-startup-id ~/.local/share/utils/prompt "Reboot computer?" "$reboot"
+# Shut down
+bindsym $mod+Shift+Escape exec --no-startup-id ~/.local/share/utils/prompt "Shut down computer?" "$shutdown"
+
+# #---Killers---# #
+# Close current window
+bindsym $mod+q kill
+# Kill them all
+bindsym $mod+Shift+q exec --no-startup-id kill -9 `xdotool getwindowfocus getwindowpid`
+# Hide and paralize all
+bindsym $mod+Shift+Delete exec --no-startup-id ~/.local/share/utils/knockout
+
+# #---Navigation---# #
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+# Previous workspace
+bindsym $mod+p workspace prev
+# Toggle split container layout
+bindsym $mod+e layout toggle split
+# Split in horizontal orientation
+bindsym $mod+m split horizontal exec $term
+# Split in vertical orientation
+bindsym $mod+n split vertical exec $term
+# Fullscreen mode for the focused container
+bindsym $mod+space fullscreen toggle
+# Stacked container layout
+bindsym $mod+s layout stacking
+# Tabbed container layout
+bindsym $mod+w layout tabbed
+
+# #---Interchange---# #
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# #---Floating focus---# #
+#floating_modifier $mod+BackSpace
+# Toggle floating
+bindsym $mod+Shift+space floating toggle
+# Toggle tiling
+bindsym $mod+Shift+Return focus tiling
+# Focus between tiling/floating windows
+bindsym $mod+v focus mode_toggle
+# Focus the parent container
+bindsym $mod+a focus parent
+# Focus the child container
+bindsym $mod+z focus child
+
+# #---Resizing---# #
+mode "resize" {
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+		bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+bindsym $mod+r mode "resize"
+
+# #---Workspaces---# #
+# Definitions
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+# Navigation
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+# Interchange
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# #---Extra functions---# #
+bindsym $mod+F5 restart
+bindsym $mod+F2 exec --no-startup-id bash ~/.local/share/utils/displayselect
+bindsym $mod+F3 exec --no-startup-id bash ~/.local/share/utils/mount
+bindsym $mod+F4 exec --no-startup-id bash ~/.local/share/utils/unmount
+
+# #---i3 related---# #
+# Reload the configuration file
+bindsym $mod+Shift+c reload
+# Restart i3 inplace (preserves your session, so it can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# Exit i3 (logs you out of your X session)
+bindsym $mod+Shift+grave exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"

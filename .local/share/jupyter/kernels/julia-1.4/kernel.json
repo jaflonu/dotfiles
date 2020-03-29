@@ -1,0 +1,15 @@
+{
+  "display_name": "Julia 1.4.0",
+  "argv": [
+    "/home/jafn/julia-1.4.0/bin/julia",
+    "-i",
+    "--startup-file=yes",
+    "--color=yes",
+    "--project=@.",
+    "/home/jafn/.julia/packages/IJulia/yLI42/src/kernel.jl",
+    "{connection_file}"
+  ],
+  "language": "julia",
+  "env": {},
+  "interrupt_mode": "signal"
+}

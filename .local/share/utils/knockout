@@ -1,0 +1,6 @@
+lmc mute
+mpc pause && pkill -RTMIN+10 i3blocks
+pauseallmpv
+workspace 0
+lf
+htop
