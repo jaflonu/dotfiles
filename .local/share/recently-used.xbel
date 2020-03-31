@@ -3,22 +3,22 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/jafn/Downloads/datostada-13-02.png" added="2020-03-28T20:06:38Z" modified="2020-03-28T20:06:38Z" visited="2020-03-28T20:06:39Z">
+  <bookmark href="file:///home/jafn/Downloads/datostada-13-02.png" added="2020-03-28T20:06:38Z" modified="2020-03-30T23:45:41Z" visited="2020-03-28T20:06:39Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
         <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-28T20:06:38Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-30T23:45:41Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jafn/Downloads/datostada-13-03.png" added="2020-03-28T20:06:43Z" modified="2020-03-28T20:06:43Z" visited="2020-03-28T20:06:43Z">
+  <bookmark href="file:///home/jafn/Downloads/datostada-13-03.png" added="2020-03-28T20:06:43Z" modified="2020-03-30T23:45:44Z" visited="2020-03-28T20:06:43Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
         <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-28T20:06:43Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-30T23:45:44Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -33,22 +33,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jafn/Downloads/datostada-13-29.png" added="2020-03-28T20:07:21Z" modified="2020-03-28T20:07:21Z" visited="2020-03-28T20:07:21Z">
+  <bookmark href="file:///home/jafn/Downloads/datostada-13-29.png" added="2020-03-28T20:07:21Z" modified="2020-03-30T23:45:51Z" visited="2020-03-28T20:07:21Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
         <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-28T20:07:21Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-30T23:45:51Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jafn/Downloads/datostada-13-31.png" added="2020-03-28T20:07:27Z" modified="2020-03-28T20:07:27Z" visited="2020-03-28T20:07:27Z">
+  <bookmark href="file:///home/jafn/Downloads/datostada-13-31.png" added="2020-03-28T20:07:27Z" modified="2020-03-30T23:45:54Z" visited="2020-03-28T20:07:27Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
         <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-28T20:07:27Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-30T23:45:54Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -233,22 +233,24 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jafn/Downloads/Geometr%C3%ADa-20200329T034711Z-001.zip" added="2020-03-29T03:47:50Z" modified="2020-03-29T03:47:50Z" visited="2020-03-29T03:47:50Z">
+  <bookmark href="file:///home/jafn/Downloads/Geometr%C3%ADa-20200329T034711Z-001.zip" added="2020-03-29T03:47:50Z" modified="2020-03-30T16:26:18Z" visited="2020-03-29T03:47:50Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/zip"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-29T03:47:50Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-03-30T16:26:18Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jafn/Downloads/Julia-20200329T034813Z-001.zip" added="2020-03-29T03:48:25Z" modified="2020-03-29T03:48:25Z" visited="2020-03-29T03:48:25Z">
+  <bookmark href="file:///home/jafn/Downloads/Julia-20200329T034813Z-001.zip" added="2020-03-29T03:48:25Z" modified="2020-03-30T16:31:40Z" visited="2020-03-29T03:48:25Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/zip"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-29T03:48:25Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-03-30T16:31:40Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -383,12 +385,133 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jafn/Downloads/mate-portfolio.zip" added="2020-03-29T18:38:46Z" modified="2020-03-29T18:38:46Z" visited="2020-03-29T18:38:46.364155Z">
+  <bookmark href="file:///home/jafn/Downloads/mate-portfolio.zip" added="2020-03-29T18:38:46Z" modified="2020-03-30T16:24:10Z" visited="2020-03-29T18:38:46Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/zip"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-29T18:38:46Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-03-30T16:24:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/document.pdf" added="2020-03-30T02:08:10Z" modified="2020-03-30T02:08:10Z" visited="2020-03-30T02:08:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-30T02:08:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/datostada-13-01.png" added="2020-03-30T23:43:21Z" modified="2020-03-30T23:45:38Z" visited="2020-03-30T23:43:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-30T23:45:38Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/logoupy.png" added="2020-03-30T23:51:19Z" modified="2020-03-31T00:01:48Z" visited="2020-03-30T23:51:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:01:48Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/Copia%20de%20future-lab2%208.png" added="2020-03-30T23:51:24Z" modified="2020-03-31T00:02:06Z" visited="2020-03-30T23:51:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:02:06Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/fabcity_0.png" added="2020-03-30T23:51:28Z" modified="2020-03-31T00:01:37Z" visited="2020-03-30T23:51:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:01:37Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/Google.png" added="2020-03-30T23:51:46Z" modified="2020-03-31T00:01:44Z" visited="2020-03-30T23:51:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:01:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/ibm.png" added="2020-03-30T23:51:52Z" modified="2020-03-31T00:01:46Z" visited="2020-03-30T23:51:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:01:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/cimat2.png" added="2020-03-30T23:52:43Z" modified="2020-03-31T00:01:58Z" visited="2020-03-30T23:52:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:01:58Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/gce.png" added="2020-03-30T23:53:12Z" modified="2020-03-31T00:01:41Z" visited="2020-03-30T23:53:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:01:41Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/soldai.svg" added="2020-03-30T23:54:41Z" modified="2020-03-31T00:01:52Z" visited="2020-03-30T23:54:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:01:52Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/logotipo%20%20turquesa%20png.png" added="2020-03-31T00:04:10Z" modified="2020-03-31T00:04:17Z" visited="2020-03-31T00:04:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T00:04:17Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jafn/Downloads/mascarita.jpeg" added="2020-03-31T02:03:51Z" modified="2020-03-31T02:03:51Z" visited="2020-03-31T02:03:52.073186Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-31T02:03:51Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

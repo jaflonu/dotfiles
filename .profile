@@ -30,3 +30,6 @@ fi
 export EDITOR="vim"
 export BROWSER="firefox"
 export STATUSBAR="i3blocks"
+
+# enable ssh-agent
+#eval $(ssh-agent)

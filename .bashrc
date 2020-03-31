@@ -132,9 +132,6 @@ xterm*|rxvt*)
     ;;
 esac
 
-# Automatically do ssh-add
-ssh-add ~/.ssh/id_rsa &>/dev/null
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/jafn/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"

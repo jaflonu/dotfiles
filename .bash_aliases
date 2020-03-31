@@ -9,3 +9,5 @@ alias gc="git commit -m"
 alias gp="git push"
 alias gl="git pull"
 alias gr="git remove"
+alias key="ssh-add ~/.ssh/id_rsa"
+
