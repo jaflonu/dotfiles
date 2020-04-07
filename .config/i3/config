@@ -14,9 +14,9 @@ exec --no-startup-id feh --bg-fill --no-fehbg ~/.local/share/wallpapers/wp_3.png
 # #---Definitions---# #
 set $mod Mod4
 set $term i3-sensible-terminal
-set $shutdown sudo -A shutdown -h now
-set $reboot sudo -A reboot
-set $hibernate sudo -A systemctl suspend
+set $shutdown sudo poweroff 
+set $reboot sudo reboot
+set $hibernate sudo pm-hibernat
 
 # #---Appearance---# #
 # Font and border size
@@ -59,11 +59,11 @@ bindsym $mod+Insert exec --no-startup-id bash ~/.local/share/utils/showclip
 # Screenshot
 bindsym $mod+Shift+Print exec --no-startup-id xfce4-screenshooter
 # Hibernate
-bindsym $mod+Shift+F1 exec --no-startup-id ~/.local/share/utils/prompt "Hibernate computer?" "$hibernate"
+bindsym $mod+Shift+F3 exec --no-startup-id ~/.local/share/utils/prompt "Hibernate computer?" "$hibernate"
 # Reboot
-bindsym $mod+Shift+backspace exec --no-startup-id ~/.local/share/utils/prompt "Reboot computer?" "$reboot"
+bindsym $mod+Shift+F2 exec --no-startup-id ~/.local/share/utils/prompt "Reboot computer?" "$reboot"
 # Shut down
-bindsym $mod+Shift+Escape exec --no-startup-id ~/.local/share/utils/prompt "Shut down computer?" "$shutdown"
+bindsym $mod+Shift+F1 exec --no-startup-id ~/.local/share/utils/prompt "Shut down computer?" "$shutdown"
 
 # #---Killers---# #
 # Close current window
@@ -174,10 +174,10 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # #---Extra functions---# #
-bindsym $mod+F5 restart
-bindsym $mod+F2 exec --no-startup-id bash ~/.local/share/utils/displayselect
-bindsym $mod+F3 exec --no-startup-id bash ~/.local/share/utils/mount
-bindsym $mod+F4 exec --no-startup-id bash ~/.local/share/utils/unmount
+bindsym $mod+F4 restart
+bindsym $mod+F5 exec --no-startup-id bash ~/.local/share/utils/displayselect
+bindsym $mod+F6 exec --no-startup-id bash ~/.local/share/utils/mount
+bindsym $mod+F7 exec --no-startup-id bash ~/.local/share/utils/unmount
 
 # #---i3 related---# #
 # Reload the configuration file

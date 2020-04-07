@@ -2,11 +2,13 @@
 FullScreen=false
 
 [MainWindow]
-Height 768=725
-State=AAAA/wAAAAD9AAAAAAAAAqcAAACrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 768=730
+State=AAAA/wAAAAD9AAAAAAAABVIAAAKnAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1366=679
+Width 1366=1362
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/quiz6-7-8.pdf
-Name1[$e]=quiz6-7-8.pdf
+File1[$e]=$HOME/Documents/School/2-Elementos_Probabilidad/Elementos_Probabilidad_y_Estadistica-Martin.pdf
+File2[$e]=$HOME/Documents/School/2-Lineal_I/Linear_Algebra-Friedberg.pdf
+Name1[$e]=Elementos_Probabilidad_y_Estadistica-Martin.pdf
+Name2[$e]=Linear_Algebra-Friedberg.pdf

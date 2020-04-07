@@ -23,6 +23,9 @@ stty -ixon
 # change directory by just typing the name
 shopt -s autocd
 
+# extended pattern matching
+shopt -s extglob
+
 # append to the history file, don't overwrite it
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 shopt -s histappend

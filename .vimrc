@@ -162,10 +162,9 @@ autocmd BufNewFile,BufRead *.md nnoremap j gj
 autocmd BufNewFile,BufRead *.md nnoremap k gk
 
 " LaTeX formatting
-autocmd BufNewFile,BufRead *.tex
-						\set wrap
-						\set linebreak
-						\set formatoptions+=l
+autocmd BufNewFile,BufRead *.tex set wrap
+autocmd BufNewFile,BufRead *.tex set linebreak
+autocmd BufNewFile,BufRead *.tex set formatoptions+=1
 
 " Python formatting
 autocmd filetype python setlocal textwidth=78
@@ -173,10 +172,9 @@ autocmd filetype python match ErrorMsg '\%>120v.\+'
 autocmd filetype python setlocal formatoptions-=t
 
 " HTML/CSS/JavaScript formatting
-autocmd BufNewFile,BufRead *.html, *.css, *.js
-						\set tabstop=2
-						\set softtabstop=2
-						\set shiftwidth=2
+autocmd BufNewFile,BufRead *.html, *.css, *.js set tabstop=2
+autocmd BufNewFile,BufRead *.html, *.css, *.js set softtabstop=2
+autocmd BufNewFile,BufRead *.html, *.css, *.js set shiftwidth=2
 
 
 """"""""""""""""""""""""""""""""""""""""
@@ -313,14 +311,20 @@ let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq=0
+let g:syntastic_loc_list_height=4
 
 " Beautifying Python syntax
 let g:flake8_show_in_gutter=0
 let python_highlight_all=1
 
+" Toggle navigation
+nnoremap <leader>l :lclose<cr>
+nnoremap <leader>j :lprev<cr>
+nnoremap <leader>k :lnext<cr>
+nnoremap <leader>o :SyntasticCheck<cr>
 
 """"""""""""""""""""""""""""""""""""""""
-" => Syntastic
+" => ArgWrap
 """"""""""""""""""""""""""""""""""""""""
 
 " Toggle key enablement

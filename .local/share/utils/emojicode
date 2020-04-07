@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Have a good emoji-day!
+# Script for emoji clipboard utility
 
 set -e
 
@@ -170,53 +170,53 @@ boy                                             👦
 girl                                            👧
 man                                             👨
 woman                                           👩
-blond-haired woman                            👱‍♀
+blond-haired woman                              👱‍♀️
 blond-haired person                             👱
 old man                                         👴
 old woman                                       👵
 man with Chinese cap                            👲
-woman wearing turban                          👳‍♀
+woman wearing turban                            👳‍♀️
 person wearing turban                           👳
-woman police officer                          👮‍♀
+woman police officer                            👮‍♀️
 police officer                                  👮
-woman construction worker                     👷‍♀
+woman construction worker                       👷‍♀️
 construction worker                             👷
-woman guard                                   💂‍♀
+woman guard                                     💂‍♀️
 guard                                           💂
-woman detective                             🕵️‍♀️
+woman detective                                 🕵️‍♀️
 detective                                       🕵
-woman health worker                           👩‍⚕
-man health worker                             👨‍⚕
-woman farmer                                  👩‍🌾
-man farmer                                    👨‍🌾
-woman cook                                    👩‍🍳
-man cook                                      👨‍🍳
-woman student                                 👩‍🎓
-man student                                   👨‍🎓
-woman singer                                  👩‍🎤
-man singer                                    👨‍🎤
-woman teacher                                 👩‍🏫
-man teacher                                   👨‍🏫
-woman factory worker                          👩‍🏭
-man factory worker                            👨‍🏭
-woman technologist                            👩‍💻
-man technologist                              👨‍💻
-woman office worker                           👩‍💼
-man office worker                             👨‍💼
-woman mechanic                                👩‍🔧
-man mechanic                                  👨‍🔧
-woman scientist                               👩‍🔬
-man scientist                                 👨‍🔬
-woman artist                                  👩‍🎨
-man artist                                    👨‍🎨
-woman firefighter                             👩‍🚒
-man firefighter                               👨‍🚒
-woman pilot                                   👩‍✈
-man pilot                                     👨‍✈
-woman astronaut                               👩‍🚀
-man astronaut                                 👨‍🚀
-woman judge                                   👩‍⚖
-man judge                                     👨‍⚖
+woman health worker                             👩‍⚕
+man health worker                               👨‍⚕
+woman farmer                                    👩‍🌾
+man farmer                                      👨‍🌾
+woman cook                                      👩‍🍳
+man cook                                        👨‍🍳
+woman student                                   👩‍🎓
+man student                                     👨‍🎓
+woman singer                                    👩‍🎤
+man singer                                      👨‍🎤
+woman teacher                                   👩‍🏫
+man teacher                                     👨‍🏫
+woman factory worker                            👩‍🏭
+man factory worker                              👨‍🏭
+woman technologist                              👩‍💻
+man technologist                                👨‍💻
+woman office worker                             👩‍💼
+man office worker                               👨‍💼
+woman mechanic                                  👩‍🔧
+man mechanic                                    👨‍🔧
+woman scientist                                 👩‍🔬
+man scientist                                   👨‍🔬
+woman artist                                    👩‍🎨
+man artist                                      👨‍🎨
+woman firefighter                               👩‍🚒
+man firefighter                                 👨‍🚒
+woman pilot                                     👩‍✈
+man pilot                                       👨‍✈
+woman astronaut                                 👩‍🚀
+man astronaut                                   👨‍🚀
+woman judge                                     👩‍⚖
+man judge                                       👨‍⚖
 Mrs. Claus                                      🤶
 Santa Claus                                     🎅
 princess                                        👸
@@ -225,36 +225,33 @@ bride with veil                                 👰
 man in tuxedo                                   🤵
 baby angel                                      👼
 pregnant woman                                  🤰
-woman bowing                                  🙇‍♀
+woman bowing                                    🙇‍♀️
 person bowing                                   🙇
 person tipping hand                             💁
-man tipping hand                              💁‍♂
 person gesturing NO                             🙅
-man gesturing NO                              🙅‍♂
 person gesturing OK                             🙆
-man gesturing OK                              🙆‍♂
 person raising hand                             🙋
-man raising hand                              🙋‍♂
-woman facepalming                             🤦‍♀
-man facepalming                               🤦‍♂
-woman shrugging                               🤷‍♀
-man shrugging                                 🤷‍♂
+man raising hand                                🙋‍♂
+woman facepalming                               🤦‍♀
+man facepalming                                 🤦‍♂
+woman shrugging                                 🤷‍♀
+man shrugging                                   🤷‍♂
 person pouting                                  🙎
-man pouting                                   🙎‍♂
+man pouting                                     🙎‍♂
 person frowning                                 🙍
-man frowning                                  🙍‍♂
+man frowning                                    🙍‍♂
 person getting haircut                          💇
-man getting haircut                           💇‍♂
+man getting haircut                             💇‍♂
 person getting massage                          💆
-man getting massage                           💆‍♂
+man getting massage                             💆‍♂
 man in business suit levitating                 🕴
 woman dancing                                   💃
 man dancing                                     🕺
 people with bunny ears partying                 👯
-men with bunny ears partying                  👯‍♂
-woman walking                                 🚶‍♀
+men with bunny ears partying                    👯‍♂
+woman walking                                   🚶‍♀
 person walking                                  🚶
-woman running                                 🏃‍♀
+woman running                                   🏃‍♀
 person running                                  🏃
 man and woman holding hands                     👫
 two women holding hands                         👭
@@ -315,7 +312,7 @@ briefcase                                       💼
 glasses                                         👓
 sunglasses                                      🕶
 closed umbrella                                 🌂
-umbrella                                       ☂️
+umbrella                                        ☂️
 dog face                                        🐶
 cat face                                        🐱
 mouse face                                      🐭
@@ -411,7 +408,7 @@ deciduous tree                                  🌳
 palm tree                                       🌴
 seedling                                        🌱
 herb                                            🌿
-shamrock                                       ☘️
+shamrock                                        ☘️
 four leaf clover                                🍀
 pine decoration                                 🎍
 tanabata tree                                   🎋
@@ -446,27 +443,27 @@ first quarter moon with face                    🌛
 last quarter moon with face                     🌜
 crescent moon                                   🌙
 dizzy                                           💫
-white medium star                              ⭐️
+white medium star                               ⭐️
 glowing star                                    🌟
 sparkles                                        ✨
-high voltage                                   ⚡️
+high voltage                                    ⚡️
 fire                                            🔥
 collision                                       💥
 comet                                           ☄
-sun                                            ☀️
+sun                                             ☀️
 sun behind small cloud                          🌤
-sun behind cloud                               ⛅️
+sun behind cloud                                ⛅️
 sun behind large cloud                          🌥
 sun behind rain cloud                           🌦
 rainbow                                         🌈
-cloud                                          ☁️
+cloud                                           ☁️
 cloud with rain                                 🌧
 cloud with lightning and rain                   ⛈
 cloud with lightning                            🌩
 cloud with snow                                 🌨
-snowman                                        ☃️
-snowman without snow                           ⛄️
-snowflake                                      ❄️
+snowman                                         ☃️
+snowman without snow                            ⛄️
+snowflake                                       ❄️
 wind face                                       🌬
 dashing away                                    💨
 tornado                                         🌪
@@ -474,7 +471,7 @@ fog                                             🌫
 water wave                                      🌊
 droplet                                         💧
 sweat droplets                                  💦
-umbrella with rain drops                       ☔️
+umbrella with rain drops                        ☔️
 green apple                                     🍏
 red apple                                       🍎
 pear                                            🍐
@@ -547,7 +544,7 @@ doughnut                                        🍩
 cookie                                          🍪
 glass of milk                                   🥛
 baby bottle                                     🍼
-hot beverage                                   ☕️
+hot beverage                                    ☕️
 teacup without handle                           🍵
 sake                                            🍶
 beer mug                                        🍺
@@ -561,10 +558,10 @@ bottle with popping cork                        🍾
 spoon                                           🥄
 fork and knife                                  🍴
 fork and knife with plate                       🍽
-soccer ball                                    ⚽️
+soccer ball                                     ⚽️
 basketball                                      🏀
 american football                               🏈
-baseball                                       ⚾️
+baseball                                        ⚾️
 tennis                                          🎾
 volleyball                                      🏐
 rugby football                                  🏉
