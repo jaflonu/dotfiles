@@ -53,7 +53,7 @@ bindsym $mod+f exec --no-startup-id $term cd ~ -e ranger
 # Open web browser
 bindsym $mod+b exec --no-startup-id firefox
 # Emoji support
-bindsym $mod+grave exec --no-startup-id bash ~/.local/share/utils/emojicode
+bindsym $mod+grave exec --no-startup-id bash ~/.local/share/utils/unicode
 # Show clipboard status
 bindsym $mod+Insert exec --no-startup-id bash ~/.local/share/utils/showclip
 # Screenshot
