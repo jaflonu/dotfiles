@@ -206,10 +206,9 @@ autocmd filetype python match ErrorMsg '\%>120v.\+'
 autocmd filetype python setlocal formatoptions-=t
 
 " HTML/CSS/JavaScript formatting
-autocmd BufNewFile,BufRead *.html,*.css,*.js
-						\ set tabstop=2
-						\ set softtabstop=2
-						\ set shiftwidth=2
+autocmd BufNewFile,BufRead *.html,*.css,*.js set tabstop=2
+autocmd BufNewFile,BufRead *.html,*.css,*.js set softtabstop=2
+autocmd BufNewFile,BufRead *.html,*.css,*.js set shiftwidth=2
 
 
 """"""""""""""""""""""""""""""""""""""""
@@ -357,6 +356,7 @@ nnoremap <leader>l :lclose<cr>
 nnoremap <leader>j :lprev<cr>
 nnoremap <leader>k :lnext<cr>
 nnoremap <leader>o :SyntasticCheck<cr>
+
 
 """"""""""""""""""""""""""""""""""""""""
 " => ArgWrap
