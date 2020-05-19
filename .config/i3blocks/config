@@ -50,15 +50,17 @@ markup=pango
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
-label=
+label=💽
 interval=30
 color=#E97AC8
+separator=false
 
 [memory]
-label=
+label=💾
 instance=swap
 interval=30
 color=#859900
+separator=false
 
 # CPU usage
 #
@@ -70,9 +72,10 @@ color=#859900
 #min_width=CPU 100.00%
 
 [load_average]
-label=
+label=🧠
 interval=10
-color=#6C71C4
+color=#1793D1
+separator=false
 
 # Temperature
 #
@@ -80,10 +83,11 @@ color=#6C71C4
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [temperature]
-label=
+label=🔥
 #command=echo "$(sensors coretemp-isa-0000 | awk '/Physical/ {print $4}')"
 interval=10
 color=#B58900
+separator=false
 
 
 # Battery indicator
@@ -100,10 +104,11 @@ color=#B58900
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=論
+label=🖥️
 #DIR=/mnt/data
 interval=30
-color=#1793D1
+color=#6C71C4
+separator=false
 
 # Network interface monitoring
 #
@@ -111,14 +116,15 @@ color=#1793D1
 # The address can be forced to IPv4 or IPv6 with -4 or -6 switches.
 [iface]
 #IFACE=wlan0
-label= 
+label=🌐 
 color=#50C878
 interval=10
+separator=false
 
 # Date Time
 #
 [time]
-label=
+label=⏰
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=5
 color=#00FF00
