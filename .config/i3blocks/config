@@ -107,7 +107,7 @@ separator=false
 label=🖥️
 #DIR=/mnt/data
 interval=30
-color=#50C878
+color=#6C71C4
 separator=false
 
 # Network interface monitoring
@@ -127,7 +127,7 @@ separator=false
 label=⏰
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=5
-color=#6C71C4
+color=#50C878
 
 # Generic media player support
 #
