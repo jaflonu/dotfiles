@@ -83,7 +83,7 @@ separator=false
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [temperature]
-label=🔥
+label=🧯
 #command=echo "$(sensors coretemp-isa-0000 | awk '/Physical/ {print $4}')"
 interval=10
 color=#B58900
@@ -107,7 +107,7 @@ separator=false
 label=🖥️
 #DIR=/mnt/data
 interval=30
-color=#6C71C4
+color=#7A7FC9
 separator=false
 
 # Network interface monitoring
