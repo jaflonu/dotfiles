@@ -107,19 +107,19 @@ separator=false
 label=🖥️
 #DIR=/mnt/data
 interval=30
-color=#6C71C4
+color=#50C878
 separator=false
 
 # Network interface monitoring
 #
 # If the instance is not specified, use the interface used for default route.
 # The address can be forced to IPv4 or IPv6 with -4 or -6 switches.
-[iface]
+#[iface]
 #IFACE=wlan0
-label=🌐 
-color=#50C878
-interval=10
-separator=false
+#label=🌐 
+#color=#00FF00
+#interval=10
+#separator=false
 
 # Date Time
 #
@@ -127,7 +127,7 @@ separator=false
 label=⏰
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=5
-color=#00FF00
+color=#6C71C4
 
 # Generic media player support
 #
