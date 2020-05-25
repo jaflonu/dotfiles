@@ -52,6 +52,8 @@ bindsym $mod+Return exec $term
 bindsym $mod+f exec --no-startup-id $term cd ~ -e lf
 # Open web browser
 bindsym $mod+b exec --no-startup-id firefox
+# Open personal calendar and to-do notes
+bindsym $mod+c exec --no-startup-id $term cd ~ -e calcurse
 # Emoji support
 bindsym $mod+grave exec --no-startup-id bash ~/.local/share/utils/unicode
 # Show clipboard status
