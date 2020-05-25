@@ -1,4 +1,9 @@
-# Shitty aliases of preference
+#!/bin/zsh
+
+# Shitty aliases of preference.
+# Just a file to group them all.
+
+# Utilities
 alias v="vim"
 alias x="latexmk -pdf -pvc"
 alias g="git"

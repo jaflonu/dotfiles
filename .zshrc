@@ -1,3 +1,8 @@
+#!/bin/zsh
+
+# The ZSH configuration.
+# Just loading some commands and modules of preference.
+
 # Prompt setup
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[cyan]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$fg[green]%}$%b "
@@ -19,7 +24,7 @@ HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zhistory
 
-# Loading aliases and shortcuts
+# Loading aliases
 [ -f "$HOME/.zaliases" ] && source "$HOME/.zaliases"
 
 # Use modern completion system
@@ -38,7 +43,7 @@ bindkey -v '^?' backward-delete-char
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
-# Using lf
+# Using `lf`
 lfcd() {
 		tmp="$(mktemp)"
 		lf -last-dir-path="$tmp" "$@"
