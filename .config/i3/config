@@ -49,7 +49,7 @@ bindsym $mod+d exec dmenu_run
 # Open terminal
 bindsym $mod+Return exec $term
 # Open file browser
-bindsym $mod+f exec --no-startup-id $term cd ~ -e ranger
+bindsym $mod+f exec --no-startup-id $term cd ~ -e lf
 # Open web browser
 bindsym $mod+b exec --no-startup-id firefox
 # Emoji support
