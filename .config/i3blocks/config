@@ -50,16 +50,16 @@ markup=pango
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
-label=ram
+label=ram:
 interval=30
-color=#E97AC8
+color=#5fffff
 separator=false
 
 [memory]
-label=swap
+label=swap:
 instance=swap
 interval=30
-color=#859900
+color=#00d7ff
 separator=false
 
 # CPU usage
@@ -72,9 +72,9 @@ separator=false
 #min_width=CPU 100.00%
 
 [load_average]
-label=load
+label=load:
 interval=10
-color=#1793D1
+color=#00afff
 separator=false
 
 # Temperature
@@ -83,10 +83,10 @@ separator=false
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [temperature]
-label=temp
+label=temp:
 #command=echo "$(sensors coretemp-isa-0000 | awk '/Physical/ {print $4}')"
 interval=10
-color=#B58900
+color=#d7afff
 separator=false
 
 
@@ -104,10 +104,10 @@ separator=false
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=disk
+label=disk:
 #DIR=/mnt/data
 interval=30
-color=#7A7FC9
+color=#936fff
 separator=false
 
 # Network interface monitoring
@@ -124,10 +124,10 @@ separator=false
 # Date Time
 #
 [time]
-label=time
+label=time:
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=5
-color=#50C878
+color=#d700ff
 
 # Generic media player support
 #
