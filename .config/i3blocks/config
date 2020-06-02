@@ -50,13 +50,13 @@ markup=pango
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
-label=💽
+label=ram
 interval=30
 color=#E97AC8
 separator=false
 
 [memory]
-label=💾
+label=swap
 instance=swap
 interval=30
 color=#859900
@@ -72,7 +72,7 @@ separator=false
 #min_width=CPU 100.00%
 
 [load_average]
-label=🧠
+label=load
 interval=10
 color=#1793D1
 separator=false
@@ -83,7 +83,7 @@ separator=false
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [temperature]
-label=🧯
+label=temp
 #command=echo "$(sensors coretemp-isa-0000 | awk '/Physical/ {print $4}')"
 interval=10
 color=#B58900
@@ -104,7 +104,7 @@ separator=false
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=🖥️
+label=disk
 #DIR=/mnt/data
 interval=30
 color=#7A7FC9
@@ -124,7 +124,7 @@ separator=false
 # Date Time
 #
 [time]
-label=⏰
+label=time
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=5
 color=#50C878
