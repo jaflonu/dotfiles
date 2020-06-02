@@ -1,14 +1,11 @@
-" ===============================================================
+" =================================================
 " Jorge's Vimrc Settings
 " Mantainer: Jorge A. Flores <jorge.nunez@cimat.mx>
 " Release: 19/Mar/2020
-"
-" ===============================================================
+" =================================================
 
 
-""""""""""""""""""""""""""""""""""""""""
-" => General
-""""""""""""""""""""""""""""""""""""""""
+"---- GENERAL ----"
 
 " Basic initializations
 execute pathogen#infect()
@@ -199,6 +196,26 @@ autocmd BufNewFile,BufRead *.tex inoremap <silent> <Up> <c-o>gk
 autocmd BufNewFile,BufRead *.tex inoremap <silent> <Down> <c-o>gj
 autocmd BufNewFile,BufRead *.tex inoremap <silent> <Home> <c-o>g<Home>
 autocmd BufNewFile,BufRead *.tex inoremap <silent> <End> <c-o>g<End>
+autocmd BufNewFile,BufRead *.bib set wrap linebreak nolist
+autocmd BufNewFile,BufRead *.bib setlocal display+=lastline
+autocmd BufNewFile,BufRead *.bib set formatoptions+=1
+autocmd BufNewFile,BufRead *.bib set breakindent 
+autocmd BufNewFile,BufRead *.bib onoremap <silent> j gj
+autocmd BufNewFile,BufRead *.bib onoremap <silent> k gk
+autocmd BufNewFile,BufRead *.bib vnoremap <silent> j gj
+autocmd BufNewFile,BufRead *.bib vnoremap <silent> k gk
+autocmd BufNewFile,BufRead *.bib nnoremap <silent> j gj
+autocmd BufNewFile,BufRead *.bib nnoremap <silent> k gk
+autocmd BufNewFile,BufRead *.bib nnoremap <silent> 0 g0
+autocmd BufNewFile,BufRead *.bib nnoremap <silent> $ g$
+autocmd BufNewFile,BufRead *.bib nnoremap <silent> <Up> gk
+autocmd BufNewFile,BufRead *.bib nnoremap <silent> <Down> gj
+autocmd BufNewFile,BufRead *.bib inoremap <silent> <Up> gk
+autocmd BufNewFile,BufRead *.bib inoremap <silent> <Down> gj
+autocmd BufNewFile,BufRead *.bib inoremap <silent> <Up> <c-o>gk
+autocmd BufNewFile,BufRead *.bib inoremap <silent> <Down> <c-o>gj
+autocmd BufNewFile,BufRead *.bib inoremap <silent> <Home> <c-o>g<Home>
+autocmd BufNewFile,BufRead *.bib inoremap <silent> <End> <c-o>g<End>
 
 " Python formatting
 autocmd filetype python setlocal textwidth=78
@@ -211,9 +228,7 @@ autocmd BufNewFile,BufRead *.html,*.css,*.js set softtabstop=2
 autocmd BufNewFile,BufRead *.html,*.css,*.js set shiftwidth=2
 
 
-""""""""""""""""""""""""""""""""""""""""
-" => CtrlP
-""""""""""""""""""""""""""""""""""""""""
+"---- CtrlP ----"
 
 " Maximum fuzzy search lines to show
 let g:crtlp_max_height = 50
@@ -235,10 +250,8 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 nnoremap <leader>b :CtrlPBuffer<cr>
 
-
-""""""""""""""""""""""""""""""""""""""""
-" => NERDCommenter
-""""""""""""""""""""""""""""""""""""""""
+ 
+"---- NERDCommenter ----"
 
 " Add a whitespace by default after comment
 let g:NERDSpaceDelims = 1
@@ -262,9 +275,7 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
 
 
-""""""""""""""""""""""""""""""""""""""""
-" => NERDTree
-""""""""""""""""""""""""""""""""""""""""
+"---- NERDTree ----"
 
 " Defaults
 let NERDTreeShowFiles=1
@@ -297,7 +308,6 @@ function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
 	exec 'autocmd filetype nerdtree highlight ' . a:extension . ' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
 	exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
 endfunction
-
 call NERDTreeHighlightFile('jade', 'green', 'none', 'green', '#151515')
 call NERDTreeHighlightFile('ini', 'yellow', 'none', 'yellow', '#151515')
 call NERDTreeHighlightFile('md', 'blue', 'none', '#3366FF', '#151515')
@@ -316,18 +326,17 @@ call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
 let NERDTreeIgnore=['\.so$', '\.egg$', '\.pyc$', '\.pyo$', '\.py\$class$', '__pycache__', '\.DS_Store', '\~$']
 
 
-""""""""""""""""""""""""""""""""""""""""
-" => Mutiple Cursors
-""""""""""""""""""""""""""""""""""""""""
+"---- Mutiple Cursors ----"
 
 " Selecting keywords with several keystrokes
 nnoremap <silent> <M-j> :MultipleCursorsFind <C-R>/<cr>
 vnoremap <silent> <M-j> :MultipleCursorsFind <C-R>/<cr>
 
 
-""""""""""""""""""""""""""""""""""""""""
-" => YouCompleteMe
-""""""""""""""""""""""""""""""""""""""""
+"---- YouCompleteMe ----"
+
+" Config file error handling
+let g:ycm_global_ycm_extra_conf='/home/jafn/.vim/bundle/youcompleteme/third_party/ycmd/.ycm_extra_conf.py'
 
 " Close the auto-complete window when it is done
 let g:ycm_autoclose_preview_window_after_completion=1
@@ -336,9 +345,7 @@ let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g :YcmCompleter GotoDefinitionElseDeclaration<cr>
 
 
-""""""""""""""""""""""""""""""""""""""""
-" => Syntastic
-""""""""""""""""""""""""""""""""""""""""
+"---- Syntastic ----"
 
 " Checkers enablement 
 let g:syntastic_always_populate_loc_list=1
@@ -358,9 +365,7 @@ nnoremap <leader>k :lnext<cr>
 nnoremap <leader>o :SyntasticCheck<cr>
 
 
-""""""""""""""""""""""""""""""""""""""""
-" => ArgWrap
-""""""""""""""""""""""""""""""""""""""""
+"---- ArgWrap ----"
 
 " Toggle key enablement
 nnoremap <leader>a :ArgWrap<cr>
