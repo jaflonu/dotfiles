@@ -9,7 +9,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # #---Startup---# #
-exec --no-startup-id feh --bg-fill --no-fehbg ~/.local/share/wallpapers/wp_3.png
+exec --no-startup-id feh --bg-fill --no-fehbg ~/.local/share/wallpapers/wp_1.jpg
 
 # #---Definitions---# #
 set $mod Mod4
