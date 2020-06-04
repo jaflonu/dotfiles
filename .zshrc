@@ -5,7 +5,7 @@
 
 # Prompt setup
 autoload -U colors && colors
-PS1="%B%{$fg[white]%}[%{$fg[magenta]%}%n%{$fg[green]%}@%{$fg[cyan]%}%M %{$fg[blue]%}%~%{$fg[white]%}]%{$fg[green]%}$%b "
+PS1="%B%{$fg[white]%}[%{$fg[magenta]%}%n%{$fg[green]%}@%{$fg[cyan]%}%M %{$fg[green]%}%~%{$fg[white]%}]%{$fg[green]%}$%b "
 setopt autocd
 setopt extended_glob
 setopt histappend
