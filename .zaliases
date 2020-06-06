@@ -13,6 +13,7 @@ alias ga="git add"
 alias gc="git commit -m"
 alias gp="git push"
 alias gl="git pull"
+alias gn="git clone"
 
 # System related
 alias p="sudo apt-get"
@@ -35,6 +36,6 @@ alias vdir='vdir --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-# Adding sbin to PATH
+# Add sbin to PATH
 #echo $PATH | grep -Eq "(^|:)/sbin(:|)" || PATH=$PATH:/sbin
 #echo $PATH | grep -Eq "(^|:)/usr/sbin(:|)" || PATH=$PATH:/usr/sbin
