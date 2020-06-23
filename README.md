@@ -1,6 +1,6 @@
 # Jorge's MX-19 + i3 Dotfiles
 
-[![Stargazers](https://img.shields.io/badge/be%20a-star-a155e7?style=popout-square)](https://github.com/jaflonu/dotfiles/stargazers "Stargazers")
+[![Code Size](https://img.shields.io/github/languages/code-size/jaflonu/dotfiles?style=popout-square)](https://github.com/jaflonu/dotfiles/archive/master.zip "Code Size")
 
 Minimal-[KISS](https://en.wikipedia.org/wiki/KISS_principle) preferences and settings for user configuration files deployed in the MX Linux distribution, inspired by [LARBS Voidrice](https://github.com/LukeSmithxyz/voidrice).
 
