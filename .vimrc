@@ -1,8 +1,9 @@
-" =================================================
+"
 " Jorge's Vimrc Settings
-" Mantainer: Jorge A. Flores <jorge.nunez@cimat.mx>
-" Release: 19/Mar/2020
-" =================================================
+"
+" Mantainer: Jorge A. Flores <jaflonu@protonmail.ch>
+" Release: March 19, 2020
+"
 
 
 "---- GENERAL ----"
@@ -86,6 +87,7 @@ nnoremap <leader>s :%s/
 noremap <leader>r :!%:p<cr>
 nnoremap <leader>c :%s/\s\+$//<cr>:let @/=''<cr>
 nnoremap <leader>v :split<cr>
+nnoremap <leader>t :term<cr>
 
 " System clipboard utilities
 set clipboard=unnamedplus
@@ -179,7 +181,7 @@ autocmd BufNewFile,BufRead *.md inoremap <silent> <End> <c-o>g<End>
 autocmd BufNewFile,BufRead *.tex set wrap linebreak nolist
 autocmd BufNewFile,BufRead *.tex setlocal display+=lastline
 autocmd BufNewFile,BufRead *.tex set formatoptions+=1
-autocmd BufNewFile,BufRead *.tex set breakindent 
+"autocmd BufNewFile,BufRead *.tex set breakindent 
 autocmd BufNewFile,BufRead *.tex onoremap <silent> j gj
 autocmd BufNewFile,BufRead *.tex onoremap <silent> k gk
 autocmd BufNewFile,BufRead *.tex vnoremap <silent> j gj
@@ -372,3 +374,25 @@ nnoremap <leader>a :ArgWrap<cr>
 
 " Comma delimiter
 let g:argwrap_tail_comma=1
+
+
+"---- QuickTex ----"
+
+" Configuration
+let g:quicktex_tex = {
+    \' '   : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+    \'m'   : '\( <+++> \) <++>',
+    \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
+\}
+
+let g:quicktex_math = {
+    \' '    : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+    \'fr'   : '\mathcal{R} ',
+    \'eq'   : '= ',
+    \'set'  : '\{ <+++> \} <++>',
+    \'frac' : '\frac{<+++>}{<++>} <++>',
+    \'one'  : '1 ',
+    \'st'   : ': ',
+    \'in'   : '\in ',
+    \'bn'   : '\mathbb{N} ',
+\}
