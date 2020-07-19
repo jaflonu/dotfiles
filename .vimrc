@@ -178,26 +178,26 @@ autocmd BufNewFile,BufRead *.md inoremap <silent> <Home> <c-o>g<Home>
 autocmd BufNewFile,BufRead *.md inoremap <silent> <End> <c-o>g<End>
 
 " LaTeX formatting
-autocmd BufNewFile,BufRead *.tex set wrap linebreak nolist
-autocmd BufNewFile,BufRead *.tex setlocal display+=lastline
-autocmd BufNewFile,BufRead *.tex set formatoptions+=1
+"autocmd BufNewFile,BufRead *.tex set wrap linebreak nolist
+"autocmd BufNewFile,BufRead *.tex setlocal display+=lastline
+"autocmd BufNewFile,BufRead *.tex set formatoptions+=1
 "autocmd BufNewFile,BufRead *.tex set breakindent 
-autocmd BufNewFile,BufRead *.tex onoremap <silent> j gj
-autocmd BufNewFile,BufRead *.tex onoremap <silent> k gk
-autocmd BufNewFile,BufRead *.tex vnoremap <silent> j gj
-autocmd BufNewFile,BufRead *.tex vnoremap <silent> k gk
-autocmd BufNewFile,BufRead *.tex nnoremap <silent> j gj
-autocmd BufNewFile,BufRead *.tex nnoremap <silent> k gk
-autocmd BufNewFile,BufRead *.tex nnoremap <silent> 0 g0
-autocmd BufNewFile,BufRead *.tex nnoremap <silent> $ g$
-autocmd BufNewFile,BufRead *.tex nnoremap <silent> <Up> gk
-autocmd BufNewFile,BufRead *.tex nnoremap <silent> <Down> gj
-autocmd BufNewFile,BufRead *.tex inoremap <silent> <Up> gk
-autocmd BufNewFile,BufRead *.tex inoremap <silent> <Down> gj
-autocmd BufNewFile,BufRead *.tex inoremap <silent> <Up> <c-o>gk
-autocmd BufNewFile,BufRead *.tex inoremap <silent> <Down> <c-o>gj
-autocmd BufNewFile,BufRead *.tex inoremap <silent> <Home> <c-o>g<Home>
-autocmd BufNewFile,BufRead *.tex inoremap <silent> <End> <c-o>g<End>
+"autocmd BufNewFile,BufRead *.tex onoremap <silent> j gj
+"autocmd BufNewFile,BufRead *.tex onoremap <silent> k gk
+"autocmd BufNewFile,BufRead *.tex vnoremap <silent> j gj
+"autocmd BufNewFile,BufRead *.tex vnoremap <silent> k gk
+"autocmd BufNewFile,BufRead *.tex nnoremap <silent> j gj
+"autocmd BufNewFile,BufRead *.tex nnoremap <silent> k gk
+"autocmd BufNewFile,BufRead *.tex nnoremap <silent> 0 g0
+"autocmd BufNewFile,BufRead *.tex nnoremap <silent> $ g$
+"autocmd BufNewFile,BufRead *.tex nnoremap <silent> <Up> gk
+"autocmd BufNewFile,BufRead *.tex nnoremap <silent> <Down> gj
+"autocmd BufNewFile,BufRead *.tex inoremap <silent> <Up> gk
+"autocmd BufNewFile,BufRead *.tex inoremap <silent> <Down> gj
+"autocmd BufNewFile,BufRead *.tex inoremap <silent> <Up> <c-o>gk
+"autocmd BufNewFile,BufRead *.tex inoremap <silent> <Down> <c-o>gj
+"autocmd BufNewFile,BufRead *.tex inoremap <silent> <Home> <c-o>g<Home>
+"autocmd BufNewFile,BufRead *.tex inoremap <silent> <End> <c-o>g<End>
 autocmd BufNewFile,BufRead *.bib set wrap linebreak nolist
 autocmd BufNewFile,BufRead *.bib setlocal display+=lastline
 autocmd BufNewFile,BufRead *.bib set formatoptions+=1
