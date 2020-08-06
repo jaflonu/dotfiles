@@ -1,4 +1,4 @@
-# Jorge's MX-19 + i3 Dotfiles
+# Jorge's MX-19 Dotfiles
 
 [![Code Size](https://img.shields.io/github/languages/code-size/jaflonu/dotfiles?style=popout-square)](https://github.com/jaflonu/dotfiles/search?l=shell "Code Size")
 
