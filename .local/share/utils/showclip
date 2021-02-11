@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# Display contents of selection via dunst if running.
-# Separate script for i3.
-
-clip=$(clipit --clipboard)
-
-[ -n "$clip" ] && notify-send "Clipboard:" "$clip"
